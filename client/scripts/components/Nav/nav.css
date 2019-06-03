@@ -1,0 +1,36 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(127, 177, 156);;
+    min-height: 80px;
+    width: 100%;
+    text-align: right;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: bold;
+    z-index: 99;
+}
+
+.title{
+    position: absolute;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+
+.score {
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.message {
+    position: absolute;
+    left: 35%;
+    margin-top: 1%;
+    animation: shake 0.5s;
+    /* text-align: center; */
+}
